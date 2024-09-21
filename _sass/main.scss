@@ -1,0 +1,7 @@
+// Pico with purple primary color
+@use "pico" with (
+    $theme-color: "amber"
+);
+
+@use "colors" as *;
+@use "colors/utilities";
